@@ -1,6 +1,13 @@
-var greeting = React.createElement('h1', {}, 'Hello, World!');
+function liveTime(){
 
-ReactDOM.render(
-  greeting,
-  document.getElementById('react-app-root')
-);
+  let greeting = React.createElement('h1', {}, 'Hello, World!');
+  let clock = React.createElement('h2', {}, `It is ${new Date().toLocaleTimeString()}`);
+  let app = React.createElement('div', {}, greeting, clock);
+
+  ReactDOM.render(
+    app,
+    document.getElementById('react-app-root')
+  );
+}
+
+setInterval(liveTime, 1000);

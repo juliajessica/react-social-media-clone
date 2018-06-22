@@ -1,0 +1,13 @@
+import React from 'react';
+
+function Ticket(){
+  return(
+    <div>
+      <h3>3A - Thadeus and Emma</h3>
+      <p><em>Firebase will not save record!</em></p>
+      <hr/>
+    </div>
+  );
+}
+
+export default Ticket;

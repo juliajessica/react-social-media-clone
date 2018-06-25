@@ -15,10 +15,14 @@ function Menu(){
         .btn {
           padding: 15px;
           background-color: white;
-          font-size: 14px;
+          font-size: .7rem;
           font-weight: bold;
           cursor: pointer;
-          margin: 5px;
+          margin: .4rem;
+        }
+        .btn:hover{
+          background-color: grey;
+          color:white;
         }
       `}</style>
     </div>

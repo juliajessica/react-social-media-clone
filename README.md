@@ -13,6 +13,21 @@
 
 _This is a template repository with the added technologies to build a React Application quicker for projects_
 
+## Notes
+
+Components
+1. Nav
+  a. Menu
+  b. Search
+  <strike>c. Tweet</strike>
+2. Profile
+3. Status List
+  a. User
+  b. Status Feed
+5. Friends Requests
+  a. Friend Request List
+
+
 ## <span style="color:#74875d;">Technologies Used</span>
 
 * HTML

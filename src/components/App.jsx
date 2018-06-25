@@ -1,22 +1,18 @@
 import React from 'react';
-import Header from './Header';
-import TicketList from './TicketList';
+import Nav from './Nav';
+import Profile from './Profile';
+import StatusList from './StatusList';
+import FriendRequestList from './FriendRequest';
 
 function App(){
   return (
     <div>
-      <Header />
-      <TicketList />
+      <Nav />
+      <Profile />
+      <StatusList />
+      <FriendRequestList />
     </div>
   );
 }
 
 export default App;
-
-
-// function liveTime(){
-// let clock = React.createElement('h2', {}, `It is ${new Date().toLocaleTimeString()}`);
-
-// }
-
-// setInterval(liveTime, 1000);

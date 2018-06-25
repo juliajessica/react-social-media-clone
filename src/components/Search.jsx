@@ -4,15 +4,18 @@ import React from 'react';
 function Search(){
   return(
     <div className="searchStyle">
-      <input placeholder="SEARCH" className="input"></input>
-        <button type="button" className="button">SEARCH</button>
+      <input placeholder="SEARCH"></input>
+      <button type="button">SEARCH</button>
 
       <style jsx>{`
         .searchStyle{
           padding-top: .5rem;
         }
 
-        .input, .button {
+        input, button {
+          border: .3rem solid #cdb8d1;
+          border-radus: 1.75rem;
+
           padding: .6rem;
           margin: .6rem;
         }

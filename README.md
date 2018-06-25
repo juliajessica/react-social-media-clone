@@ -1,6 +1,4 @@
-# _<p align="center">React Virtual Clock</p>_
-
-#### _<p align="center">Assignment for Epicodus</p>_
+# _<p align="center">React Template</p>_
 
 #### _**<p align="center">By: Julia Sheremet</p>**_
 
@@ -13,13 +11,17 @@
 
 ### Link to live application:
 
-_This single React Application takes it's clock method and compares the "Actual" DOM to its Virtual DOM._
+_This is a template repository with the added technologies to build a React Application quicker for projects_
 
 ## <span style="color:#74875d;">Technologies Used</span>
 
 * HTML
-* JSX
 * React
+* JSX
+* Webpack, Eslint, babel
+* React Hot Loader
+* CSS Loader, CSS Style Loader, and JSX Loader
+
 
 ### <span style="color:#74875d;">License</span>
 

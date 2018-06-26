@@ -1,4 +1,4 @@
-# _<p align="center">React Template</p>_
+# _<p align="center">React Social Media Application</p>_
 
 #### _**<p align="center">By: Julia Sheremet</p>**_
 
@@ -11,7 +11,33 @@
 
 ### Link to live application:
 
-_This is a template repository with the added technologies to build a React Application quicker for projects_
+_This application is a Social Media platform built in React. I use basic React fundamentals in this applications such as creating components, props, propTypes, using CSS Objects and Modules, looping with JSX and functional programming. Feel free to clone this project and check it out! I hope you enjoy it._
+
+## Setup/Installation Requirements 💻
+* Clone repository on your local computer.
+* Open Index.html in a browser Window
+
+In the project directory, you can run this line of code to install all dependencies:
+
+```sh
+$ npm install
+```
+
+Build up the app for production to the build folder.
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+```sh
+$ npm run build
+```
+
+Runs the app in the development mode.
+a http://localhost:8080/ will open up and you will have access to view the application in the browser.
+
+```sh
+$ npm run start
+```
+
+The application is ready!
 
 ## Notes
 

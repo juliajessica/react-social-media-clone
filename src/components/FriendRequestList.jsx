@@ -3,7 +3,7 @@ import FriendRequest from './FriendRequest';
 
 let friendRequestData = [
   {
-    image: 'https://png.icons8.com/color/1600/person-female.png',
+    image: 'https://png.icons8.com/color/260/user-female-circle.png',
     name: 'Brenda Franco'
   },
   {
@@ -35,8 +35,6 @@ function FriendRequestList(){
           border: 1px solid grey;
           padding: 2rem;
           margin: .7rem;
-          display: flex;
-          flex: wrap;
         }
       `}</style>
     </div>

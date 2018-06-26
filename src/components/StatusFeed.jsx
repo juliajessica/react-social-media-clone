@@ -14,7 +14,7 @@ function StatusFeed(props) {
         }
 
         img {
-          width:200px;
+          width:150px;
           height: auto;
         }
       `}</style>

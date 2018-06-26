@@ -14,20 +14,22 @@ function FriendRequest(props){
             display: flex;
             flex-direction: wrap;
             justify-content: space-around;
-            margin: .5rem;
           }
           h4{
             color:#cdb8d1;
             align-items: center;
           }
           button {
+            font-size: .7rem;
+            font-weight: bold;
+            cursor: pointer;
             background-color: white;
             border: 1px solid #cdb8d1;
-            color:#cdb8d1;
+            color: #cdb8d1;
             margin:.5rem;
-            padding:1rem;
-            height: 4rem;
+            padding: 1rem;
           }
+
           button:hover {
             background-color: #7a6c7c;
             color:white;

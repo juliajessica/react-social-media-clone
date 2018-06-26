@@ -18,6 +18,11 @@ function Search(){
           padding: .6rem;
           margin: .6rem;
         }
+        button:hover {
+          background-color: #7a6c7c;
+          color:white;
+        }
+
       `}
       </style>
     </div>

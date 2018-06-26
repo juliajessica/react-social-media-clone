@@ -4,6 +4,7 @@ function Profile(){
   return(
     <div>
       <div className="profileStyle">
+        <img src="https://png.icons8.com/color/260/user-female-circle.png" />
         <h1>Julia Sheremet</h1>
         <div className="list-follow">
           <p>TWEET</p>
@@ -30,8 +31,14 @@ function Profile(){
           }
 
           .list-follow p {
-            padding: 1rem;
+            padding: .4rem;
+            color: #f4b942;
+            font-weight: bold;
           }
+          .list-follow p:hover {
+            color: #e0553c;
+          }
+
         `}
       </style>
 

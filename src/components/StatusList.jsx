@@ -55,6 +55,7 @@ function StatusList(){
       <style jsx>{`
 
         .statusFeed{
+          padding: 4rem;
           border: 1px solid grey;
           padding: 1rem;
           margin: .7rem;

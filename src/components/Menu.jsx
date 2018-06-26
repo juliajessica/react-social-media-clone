@@ -12,16 +12,18 @@ function Menu(){
       <button className="btn" type="button">MESSAGES</button>
 
       <style jsx>{`
-        .btn {
-          padding: 15px;
-          background-color: white;
+        button {
           font-size: .7rem;
           font-weight: bold;
           cursor: pointer;
-          margin: .4rem;
+          background-color: white;
+          border: 1px solid #cdb8d1;
+          color:#cdb8d1;
+          margin:.5rem;
+          padding: 1rem;
         }
-        .btn:hover{
-          background-color: grey;
+        button:hover{
+          background-color: #7a6c7c;
           color:white;
         }
       `}</style>

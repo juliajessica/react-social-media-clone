@@ -26,7 +26,7 @@ function Profile(){
           .list-follow {
             display: flex;
             flex-direction: row;
-            justify-content: flex-start;
+            justify-content: space-around;
           }
 
           .list-follow p {

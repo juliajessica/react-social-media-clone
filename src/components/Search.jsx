@@ -15,7 +15,6 @@ function Search(){
         input, button {
           border: .3rem solid #cdb8d1;
           border-radus: 1.75rem;
-
           padding: .6rem;
           margin: .6rem;
         }

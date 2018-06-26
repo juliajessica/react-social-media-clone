@@ -12,7 +12,7 @@ function Nav(){
       <style jsx>{`
         .navStyle {
           display: flex;
-          justify-content: space-around;
+          justify-content: space-between;
           flex-direction: columns;
         }
       `}</style>

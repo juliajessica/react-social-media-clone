@@ -36,8 +36,7 @@ function FriendRequestList(){
           padding: 2rem;
           margin: .7rem;
           display: flex;
-          flex-direction: row;
-          justify-content: space-around;
+          flex: wrap;
         }
       `}</style>
     </div>

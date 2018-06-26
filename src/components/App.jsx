@@ -18,13 +18,11 @@ function App(){
             margin: auto;
             display: block;
             display:flex;
-            flex-direction:wrap;
+            flex-direction: space-between;
           }
         `}</style>
       </div>
     </div>
-
-
   );
 }
 

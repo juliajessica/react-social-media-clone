@@ -11,19 +11,22 @@ function FriendRequest(props){
 
         <style jsx>{`
           .friendRequestStyle {
-            border: 2px solid yelow;
             display: flex;
-            flex-direction: column;
+            flex-direction: wrap;
             justify-content: space-around;
+            margin: .5rem;
           }
           h4{
             color:#cdb8d1;
+            align-items: center;
           }
           button {
             background-color: white;
             border: 1px solid #cdb8d1;
             color:#cdb8d1;
-            padding:.6rem;
+            margin:.5rem;
+            padding:1rem;
+            height: 4rem;
           }
           button:hover {
             background-color: #7a6c7c;

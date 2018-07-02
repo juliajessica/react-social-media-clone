@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 
 function Menu(){
   let menuStyle = {
@@ -7,9 +9,10 @@ function Menu(){
 
   return(
     <div style={menuStyle}>
-      <button className="btn" type="button">MENU</button>
+      <Link to='/'><button className="btn" type="button">MENU</button></Link>
       <button className="btn" type="button">NOTIFICATIONS</button>
       <button className="btn" type="button">MESSAGES</button>
+      <Link to='/profile'><button className="btn" type="button">PROFILE</button></Link>
 
       <style jsx>{`
         button {

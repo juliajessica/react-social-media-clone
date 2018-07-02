@@ -1,8 +1,4 @@
-import React from 'react';
-import UserStatus from './UserStatus';
-import StatusFeed from './StatusFeed';
-
-let statusListData = [
+const statusListData = [
   {
     image: 'https://png.icons8.com/color/1600/circled-user-female-skin-type-6.png',
     name: 'Lulu Smith',
@@ -35,38 +31,4 @@ let statusListData = [
   },
 ];
 
-function StatusList(){
-  return(
-    <div>
-      <div className="statusFeed">
-        <UserStatus />
-        <hr/>
-        {statusListData.map((newsFeed, index) =>
-          <StatusFeed
-            image={newsFeed.image}
-            name={newsFeed.name}
-            time={newsFeed.time}
-            status={newsFeed.status}
-            key={index} />
-        )}
-      </div>
-
-
-      <style jsx>{`
-
-        .statusFeed{
-          padding: 4rem;
-          border: 1px solid grey;
-          padding: 1rem;
-          margin: .7rem;
-        }
-      `}
-      </style>
-
-
-    </div>
-
-  );
-
-}
-export default StatusList;
+export default statusListData;

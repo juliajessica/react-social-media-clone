@@ -8,11 +8,13 @@ class StatusListControl extends React.Component {
   constructor(props){
     super(props);
     this.state = {
-      statusListData
+      statusListData,
+      likeButton: false
     };
     this.handleClickAddUserStatus = this.handleClickAddUserStatus.bind(this);
-    console.log(statusListData);
-    console.log(this.state.statusListData);
+    this.handleLikeButton = this.handleLikeButton.bind(this);
+    // console.log(statusListData);
+    // console.log(this.state.statusListData);
   }
   handleClickAddUserStatus(newStatus){
     let newStatusListData = this.state.statusListData.slice();
@@ -20,8 +22,14 @@ class StatusListControl extends React.Component {
     this.setState({statusListData: newStatusListData});
   }
 
-  render(){
+  handleLikeButton() {
+    console.log(this.state.likeButton);
+    this.setState(prevState => ({likeButton: !prevState.likeButton}));
+    console.log(this.state.likeButton);
+  }
 
+
+  render(){
     return(
       <div>
         <div className="statusFeed">
@@ -34,8 +42,12 @@ class StatusListControl extends React.Component {
               name={newsFeed.name}
               time={newsFeed.time}
               status={newsFeed.status}
-              key={index} />
+              key={index}
+              onLikeButton={this.handleLikeButton}
+              likeStatus={this.state.likeButton}
+              Lin/>
           )}
+
         </div>
 
 

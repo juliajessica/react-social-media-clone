@@ -12,8 +12,8 @@ function UserStatus(props){
     event.preventDefault();
     console.log(props);
     props.onClickAddUserStatus({image: _image, name: _name, time: _time, status: _statusText.value});
-
   }
+
 
   return(
     <div>

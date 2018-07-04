@@ -45,7 +45,7 @@ class StatusListControl extends React.Component {
               key={index}
               onLikeButton={this.handleLikeButton}
               likeStatus={this.state.likeButton}
-              Lin/>
+              />
           )}
 
         </div>

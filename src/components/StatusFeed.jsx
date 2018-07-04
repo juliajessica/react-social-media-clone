@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 function StatusFeed(props) {
-   console.log(props.likeButton);
   return(
     <div>
       <img src={props.image} />
@@ -29,6 +28,7 @@ StatusFeed.propTypes = {
   name: PropTypes.string,
   status: PropTypes.string,
   time: PropTypes.string,
+  likeStatus: PropTypes.string,
   onLikeButton: PropTypes.func
 };
 
